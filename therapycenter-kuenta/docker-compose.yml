@@ -8,7 +8,7 @@ services:
       APP_PORT: 3700
 
   web:
-    image: ghcr.io/therapycenter/kuenta:1.8.0@sha256:724d38752b69cb1413fb8b90d72c250d53682108e810fa71c8f1889f9bcf78bd
+    image: ghcr.io/therapycenter/kuenta:1.8.1@sha256:5f0e75db7ddd81b2335e0a8e286098cb651c06733fd62bdd685f9e611fb2921c
     user: "1000:1000"
     init: true
     restart: on-failure

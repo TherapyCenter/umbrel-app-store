@@ -1,13 +1,13 @@
 manifestVersion: 1
 id: therapycenter-kuenta
-name: Kuenta
+name: KuentaPOS
 tagline: Invoicing, cash register and e-invoices for auto repair shops
-icon: https://raw.githubusercontent.com/TherapyCenter/Kuenta/main/public/img/icon.svg
+icon: https://raw.githubusercontent.com/TherapyCenter/KuentaPOS/main/public/img/icon.svg
 category: finance
-version: "1.8.1"
+version: "1.8.3"
 port: 3700
 description: >-
-  Kuenta is a complete business application for auto repair shops and small businesses:
+  KuentaPOS is a complete business application for auto repair shops and small businesses:
   customers and vehicles, quotes, work orders, delivery notes, invoices and credit notes,
   payments and dunning, a cash register, parts and stock, tyre storage, appointments and
   time tracking.
@@ -24,21 +24,22 @@ description: >-
   Customers can pay invoices with Bitcoin, Lightning or USDT through your own BTCPay Server.
 
 
-  All data stays on your Umbrel. Open Kuenta in the browser of any device in your network,
-  for example on a tablet in the workshop. Back up your data in Kuenta under "Kuenta → Back up data".
+  All data stays on your Umbrel. Open KuentaPOS in the browser of any device in your network,
+  for example on a tablet in the workshop. Back up your data in KuentaPOS under "KuentaPOS → Back up data".
 developer: Doc
-website: https://github.com/TherapyCenter/Kuenta
+website: https://github.com/TherapyCenter/KuentaPOS
 submitter: Doc
 submission: https://github.com/TherapyCenter/umbrel-app-store
-repo: https://github.com/TherapyCenter/Kuenta
-support: https://github.com/TherapyCenter/Kuenta/issues
+repo: https://github.com/TherapyCenter/KuentaPOS
+support: https://github.com/TherapyCenter/KuentaPOS/issues
 gallery:
   - https://raw.githubusercontent.com/TherapyCenter/umbrel-app-store/main/gallery/1-invoice.png
   - https://raw.githubusercontent.com/TherapyCenter/umbrel-app-store/main/gallery/2-receipt.png
   - https://raw.githubusercontent.com/TherapyCenter/umbrel-app-store/main/gallery/3-qr-bill.png
 releaseNotes: >-
-  Add-ons now cost 20 US dollars. Includes the Luxembourg tax system with Peppol, the periodic and annual VAT return
-  and the recapitulative statement for eCDF.
+  Kuenta is now called KuentaPOS. Your data, settings and licenses stay as they are. The user interface is now
+  also available in French, Italian and Dutch, and the overview has one button each for the fiat and the Bitcoin
+  display currency.
 dependencies: []
 path: ""
 defaultUsername: ""

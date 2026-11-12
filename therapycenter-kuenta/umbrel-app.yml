@@ -38,6 +38,7 @@ gallery:
   - https://raw.githubusercontent.com/TherapyCenter/umbrel-app-store/main/gallery/3-qr-bill.png
 releaseNotes: >-
   The time clock buttons and messages are now shown in every user interface language, not only in German.
+  Since version 1.8.3 Kuenta is called KuentaPOS; your data, settings and licenses stay as they are.
 dependencies: []
 path: ""
 defaultUsername: ""

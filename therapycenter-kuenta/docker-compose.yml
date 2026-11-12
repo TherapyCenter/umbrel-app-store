@@ -8,7 +8,7 @@ services:
       APP_PORT: 3700
 
   web:
-    image: ghcr.io/therapycenter/kuentapos:1.8.3@sha256:fe73b2d6a0ced441bedd4084d9868902a57a40c46ac28bed4ce6284c8f3ddba4
+    image: ghcr.io/therapycenter/kuentapos:1.8.4@sha256:c1398f222174fdbf75bdbcbcfed791f94e20bc6a8c4afd818c7285b0b979cc51
     user: "1000:1000"
     init: true
     restart: on-failure

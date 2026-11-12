@@ -4,7 +4,7 @@ name: KuentaPOS
 tagline: Invoicing, cash register and e-invoices for auto repair shops
 icon: https://raw.githubusercontent.com/TherapyCenter/KuentaPOS/main/public/img/icon.svg
 category: finance
-version: "1.8.3"
+version: "1.8.4"
 port: 3700
 description: >-
   KuentaPOS is a complete business application for auto repair shops and small businesses:
@@ -37,9 +37,7 @@ gallery:
   - https://raw.githubusercontent.com/TherapyCenter/umbrel-app-store/main/gallery/2-receipt.png
   - https://raw.githubusercontent.com/TherapyCenter/umbrel-app-store/main/gallery/3-qr-bill.png
 releaseNotes: >-
-  Kuenta is now called KuentaPOS. Your data, settings and licenses stay as they are. The user interface is now
-  also available in French, Italian and Dutch, and the overview has one button each for the fiat and the Bitcoin
-  display currency.
+  The time clock buttons and messages are now shown in every user interface language, not only in German.
 dependencies: []
 path: ""
 defaultUsername: ""

@@ -40,9 +40,9 @@ submission: https://github.com/TherapyCenter/umbrel-app-store
 repo: https://github.com/TherapyCenter/KuentaPOS
 support: https://github.com/TherapyCenter/KuentaPOS/issues
 gallery:
-  - https://raw.githubusercontent.com/TherapyCenter/umbrel-app-store/main/gallery/1-invoice.png
-  - https://raw.githubusercontent.com/TherapyCenter/umbrel-app-store/main/gallery/2-receipt.png
-  - https://raw.githubusercontent.com/TherapyCenter/umbrel-app-store/main/gallery/3-qr-bill.png
+  - https://raw.githubusercontent.com/TherapyCenter/KuentaPOS/main/docs/screenshots/1-invoice.png
+  - https://raw.githubusercontent.com/TherapyCenter/KuentaPOS/main/docs/screenshots/2-receipt.png
+  - https://raw.githubusercontent.com/TherapyCenter/KuentaPOS/main/docs/screenshots/3-qr-bill.png
 releaseNotes: >-
   KuentaPOS is now fully open source and free (GNU AGPL 3.0): SMS, WhatsApp Business and Telegram no longer
   need a license key, the "License" tab and all Pro notices are gone. Your data and settings stay as they are.

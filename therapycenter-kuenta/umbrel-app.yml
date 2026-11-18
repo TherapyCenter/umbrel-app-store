@@ -4,7 +4,7 @@ name: KuentaPOS
 tagline: Invoicing, cash register and e-invoices for auto repair shops
 icon: https://raw.githubusercontent.com/TherapyCenter/KuentaPOS/main/public/img/icon.svg
 category: finance
-version: "1.9.0"
+version: "2.0.1"
 port: 3700
 description: >-
   KuentaPOS is a complete business application for auto repair shops and small businesses:
@@ -24,8 +24,11 @@ description: >-
   Customers can pay invoices with Bitcoin, Lightning or USDT through your own BTCPay Server.
 
 
-  Optional add-ons send reminders, documents as PDF and "vehicle ready" messages by SMS,
-  WhatsApp Business or Telegram.
+  Reminders, documents as PDF and "vehicle ready" messages can be sent by SMS, WhatsApp Business
+  or Telegram.
+
+
+  KuentaPOS is open source (GNU AGPL 3.0) and all features are free.
 
 
   All data stays on your Umbrel. Open KuentaPOS in the browser of any device in your network,
@@ -41,9 +44,8 @@ gallery:
   - https://raw.githubusercontent.com/TherapyCenter/umbrel-app-store/main/gallery/2-receipt.png
   - https://raw.githubusercontent.com/TherapyCenter/umbrel-app-store/main/gallery/3-qr-bill.png
 releaseNotes: >-
-  New add-ons WhatsApp Business and Telegram ($20 each): send reminders of due dates, documents as PDF and
-  the message "vehicle ready" straight to the customer's phone. Set them up under Settings → WhatsApp & Telegram.
-  Since version 1.8.3 Kuenta is called KuentaPOS; your data, settings and licenses stay as they are.
+  KuentaPOS is now fully open source and free (GNU AGPL 3.0): SMS, WhatsApp Business and Telegram no longer
+  need a license key, the "License" tab and all Pro notices are gone. Your data and settings stay as they are.
 dependencies: []
 path: ""
 defaultUsername: ""

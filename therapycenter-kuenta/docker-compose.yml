@@ -8,12 +8,14 @@ services:
       APP_PORT: 3700
 
   web:
-    image: ghcr.io/therapycenter/kuentapos:1.9.0@sha256:ed197b8190bd8f0df644270df2ef38edda589a9f4c4429fea04d270d108fa29b
+    image: ghcr.io/therapycenter/kuentapos:2.0.1@sha256:c7d7f552894744b064d8daca91e56a629bba36fbafa21d32c8d0447753ae1b87
     user: "1000:1000"
     init: true
     restart: on-failure
     stop_grace_period: 1m
     environment:
       TZ: Europe/Berlin
+      # umbrelOS offers updates itself, no update notice inside KuentaPOS
+      KUENTAPOS_UPDATE_CHECK: "0"
     volumes:
       - ${APP_DATA_DIR}/data:/data

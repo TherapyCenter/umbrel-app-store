@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      # <app-id>_<service>_1
+      APP_HOST: therapycenter-openwerkstatt_web_1
+      APP_PORT: 3700
+
+  web:
+    image: ghcr.io/therapycenter/openwerkstatt:2.1.0@sha256:11d04d1e99d39224d8a53c74af2d8531c6d3dcda2444f7a8fd51edd9897534ca
+    user: "1000:1000"
+    init: true
+    restart: on-failure
+    stop_grace_period: 1m
+    environment:
+      TZ: Europe/Berlin
+      # umbrelOS offers updates itself, no update notice inside OpenWerkstatt
+      OPENWERKSTATT_UPDATE_CHECK: "0"
+    volumes:
+      - ${APP_DATA_DIR}/data:/data

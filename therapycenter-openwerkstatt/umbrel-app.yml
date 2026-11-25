@@ -1,0 +1,52 @@
+manifestVersion: 1
+id: therapycenter-openwerkstatt
+name: OpenWerkstatt
+tagline: Invoicing, cash register and e-invoices for auto repair shops
+icon: https://raw.githubusercontent.com/TherapyCenter/OpenWerkstatt/main/public/img/icon.svg
+category: finance
+version: "2.1.0"
+port: 3700
+description: >-
+  OpenWerkstatt is a complete business application for auto repair shops and small businesses:
+  customers and vehicles, quotes, work orders, delivery notes, invoices and credit notes,
+  payments and dunning, a cash register, parts and stock, tyre storage, appointments and
+  time tracking.
+
+
+  It speaks the tax rules of eleven countries, each company can use its own: Germany
+  (TSE, DATEV, XRechnung/ZUGFeRD), Austria (RKSV, UVA, ebInterface), Switzerland (QR-bill,
+  CHF), France (Factur-X, Chorus Pro, FEC), Italy (FatturaPA), the Netherlands, Belgium and
+  Luxembourg (Peppol, Intervat, eCDF), Spain (VERI*FACTU, Facturae), the United Kingdom
+  (Making Tax Digital) and the United States (sales tax). Documents can be printed in German,
+  English, Spanish, Italian, Dutch and French.
+
+
+  Customers can pay invoices with Bitcoin, Lightning or USDT through your own BTCPay Server.
+
+
+  Reminders, documents as PDF and "vehicle ready" messages can be sent by SMS, WhatsApp Business
+  or Telegram.
+
+
+  OpenWerkstatt is open source (GNU AGPL 3.0) and all features are free.
+
+
+  All data stays on your Umbrel. Open OpenWerkstatt in the browser of any device in your network,
+  for example on a tablet in the workshop. Back up your data in OpenWerkstatt under "OpenWerkstatt → Back up data".
+developer: Doc
+website: https://github.com/TherapyCenter/OpenWerkstatt
+submitter: Doc
+submission: https://github.com/TherapyCenter/umbrel-app-store
+repo: https://github.com/TherapyCenter/OpenWerkstatt
+support: https://github.com/TherapyCenter/OpenWerkstatt/issues
+gallery:
+  - https://raw.githubusercontent.com/TherapyCenter/OpenWerkstatt/main/docs/screenshots/1-invoice.png
+  - https://raw.githubusercontent.com/TherapyCenter/OpenWerkstatt/main/docs/screenshots/2-receipt.png
+  - https://raw.githubusercontent.com/TherapyCenter/OpenWerkstatt/main/docs/screenshots/3-qr-bill.png
+releaseNotes: >-
+  First release of OpenWerkstatt in this store: invoicing, cash register and e-invoices for auto repair shops,
+  fully open source and free (GNU AGPL 3.0).
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
